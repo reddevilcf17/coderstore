@@ -1,6 +1,6 @@
 CarrierWave.configure do |config|
   config.storage    = :aws
-  config.aws_bucket = 'coderschool123'
+  config.aws_bucket = 'coderschool'
   config.aws_acl    = 'public-read'
 
   # The maximum period for authenticated_urls is only 7 days.
